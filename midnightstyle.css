@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+header {
+    
+    
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    position: relative;
+}
+
+.header-content {
+    background-image: url('images/headercontent.png');
+    background-size: cover;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.header-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.header-content p {
+    font-size: 1.2em;
+    margin: 10px 0 10px;
+}
+
+.auth-buttons {
+    margin-top: 20px;
+}
+
+.auth-buttons button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.service {
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.service h2 {
+    margin-top: 10px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    background: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.feature {
+    max-width: 200px;
+    text-align: center;
+}
+
+.feature img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 20px;
+    background: #eae1e1;
+    color: rgb(155, 121, 121);
+}
+
+footer h2 {
+    font-size: 2em;
+}
+
+footer p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.app-links {
+    margin-top: 20px;
+}
+
+.app-links a {
+    margin: 10px;
+}
+
+.app-links img {
+    width: 150px;
+}
